@@ -10,3 +10,16 @@ void main()
 
     return 0;
 };
+
+
+
+
+#include <stdio.h>
+
+void main()
+{
+    printf("%d\n",4%3);
+    printf("%d\n",4%-3);
+    printf("%d\n",-4%3);
+    printf("%d\n",-4%-3);
+    getch();
